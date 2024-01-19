@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="styles1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>E-C O M M E R C E   &nbsp;&nbsp; W E B S I T E</h1>
+  </header>
+
+  <main>
+    <section id="products">
+        <div class="heading">IPHONES</div>
+      <div class="product">
+        <img src="/images/Apple-iphone-15-pro-max-black-titanium-1TB-Front-Back-View-Image-Model.png" alt="Product 1">
+        <a href="https://www.apple.com/in/shop/buy-iphone/iphone-15"><h3>iPhone15</h3></a>
+        <p>$19.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="/images/14pro.png" alt="Product 2">
+        <a href="https://www.apple.com/in/shop/buy-iphone/iphone-14"><h3>iPhone 14 </h3></a>
+        <p>$29.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="/images/iphone-13-pro-graphite-png.png" alt="Product 2">
+        <a href="https://www.apple.com/in/shop/buy-iphone/iphone-13"><h3>iPhone 13</h3></a>
+        <p>$29.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="heading">SAMSUNG</div>
+      <div class="product">
+        <img src="/images/iphone-13-pro-graphite-png.png" alt="Product 1">
+        <h3>prod1</h3>
+        <p>$19.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="/images/14pro.png" alt="Product 2">
+        <h3>Prod2</h3>
+        <p>$29.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="/images/14pro.png" alt="Product 2">
+        <h3>Prod3</h3>
+        <p>$29.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <section id="add">
+        <input type="file" id="productImage" accept="image/*">
+        <input type="text" id="productName" placeholder="Product Name">
+        <input type="number" id="productPrice" placeholder="Product Price">
+        <button id="addProductButton">Add Product</button>
+    </section>
+
+    </section>
+
+    <div class="right">
+        
+
+        <aside id="cart">
+        <h3>S H O P P I N G &nbsp; &nbsp;C A R T</h3>
+        <ul id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p id="total-price">T O T A L : $0.00</p>
+        </aside>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
